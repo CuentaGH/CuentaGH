@@ -10842,6 +10842,10 @@ section {
 -- Fin del Template --
 */
 
+.navbar-logo {
+  width: 150px;
+}
+
 #services .team-heading {
   margin-bottom: 2.5rem;
 }
