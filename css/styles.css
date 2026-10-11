@@ -10828,9 +10828,9 @@ html {
   scroll-padding-top: 3.5rem;
 }
 
-header {
-  padding-top: 9.5rem;
-  padding-bottom: 6rem;
+header { /* Padding Cambiado*/
+  padding-top: 3.5rem;
+  padding-bottom: 0;
 }
 
 section {
@@ -10841,6 +10841,26 @@ section {
 /*
 -- Fin del Template --
 */
+
+.artwork {
+  position: relative;
+  width: min(100%, 740px);
+  margin: 0 auto;
+}
+
+.title-card {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.game-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .navbar-logo {
   width: 150px;
